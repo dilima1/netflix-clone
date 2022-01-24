@@ -20,8 +20,8 @@
         <div class="container">
             <h2 class="logo">DRAGONFLIX</h2>
             <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Séries</a>
+                <a href="index.html">Inicio</a>
+                <a href="Series.html">Séries</a>
                 <a href="#">Filmes</a>
                 <a href="#">Documentarios</a>
             </nav>
@@ -30,6 +30,7 @@
     <!-- Fim do Cabeçalho -->
 
     <!--Capa - FilmePrincipal-->
+    
     <main>
         <div class="filme-principal">
             <div class="container">
@@ -39,25 +40,106 @@
                 cavaleiros e renegados usam todos os meios possíveis em um jogo político pela disputa do Trono de Ferro, o símbolo do
                 poder absoluto.</p>
                 <div>
-                    <button role="button" class="botao"> 
+                    <button role="button" class="botao" > 
                         <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
-                    </button>
+                    </button>                     
                 </div>
             </div>
         </div>
     </main>
    <!--Final da Capa - FilmePrincipal-->
 
-   <!--Inicio de contrução do carrossel-->
+    <!--Inicio Menu -  KendoJS - ButtumGroup-->
+<div class="container-popu">
+  <h2 class="populares">Os Mais Populares:</h2>
+  </div>
+<div class="navigation-manual">
+    <label for="radio1" class="manual-btn">Top 10</label>
+    <label for="radio2" class="manual-btn">Mais Vistos</label>
+    <label for="radio3" class="manual-btn">Minha Lista</label>
+    <label for="radio4" class="manual-btn">Aleatorio</label>
+</div>
+</div>
+<div class="slider">
+    <div class="slides">
+        <!--Inicio Botoes controle-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--Fim Botoes controle-->
+    <!--Inicio ImagensSlide-->
+    <div class="slide first">
+        <img src="./img/stream1.jpg" alt="">
+        <img src="./img/stream2.jpg" alt="">
+        <img src="./img/stream3.jpg" alt="">
+        <img src="./img/stream1.jpg" alt="">
+        <img src="./img/stream2.jpg" alt="">
+        <img src="./img/stream3.jpg" alt="">
+        <img src="./img/stream1.jpg" alt="">
+        <img src="./img/stream2.jpg" alt="">
+        <img src="./img/stream3.jpg" alt="">
+        <img src="./img/stream2.jpg" alt="">
+        <img src="./img/stream3.jpg" alt="">
+    </div>
+    <div class="slide">
+        <img src="./img/stream4.jpg" alt="">
+        <img src="./img/stream5.jpg" alt="">
+        <img src="./img/stream6.jpg" alt="">
+        <img src="./img/stream4.jpg" alt="">
+        <img src="./img/stream5.jpg" alt="">
+        <img src="./img/stream6.jpg" alt="">
+        <img src="./img/stream4.jpg" alt="">
+        <img src="./img/stream5.jpg" alt="">
+        <img src="./img/stream6.jpg" alt="">
+        <img src="./img/stream5.jpg" alt="">
+        <img src="./img/stream6.jpg" alt="">
+    </div>
+    <div class="slide">
+        <img src="./img/stream4.jpg" alt="">
+        <img src="./img/stream5.jpg" alt="">
+        <img src="./img/stream6.jpg" alt="">
+        <img src="./img/stream5.jpg" alt="">
+        <img src="./img/stream6.jpg" alt="">
+        <img src="./img/stream5.jpg" alt="">
+        <img src="./img/stream6.jpg" alt="">
+        <img src="./img/stream5.jpg" alt="">
+        <img src="./img/stream6.jpg" alt="">
+        <img src="./img/stream5.jpg" alt="">
+        <img src="./img/stream6.jpg" alt="">
+    </div>
+    <div class="slide">
+        <img src="./img/stream4.jpg" alt="">
+        <img src="./img/stream5.jpg" alt="">
+        <img src="./img/stream6.jpg" alt="">
+        <img src="./img/stream5.jpg" alt="">
+        <img src="./img/stream6.jpg" alt="">
+        <img src="./img/stream5.jpg" alt="">
+        <img src="./img/stream6.jpg" alt="">
+        <img src="./img/stream5.jpg" alt="">
+        <img src="./img/stream6.jpg" alt="">
+        <img src="./img/stream5.jpg" alt="">
+        <img src="./img/stream6.jpg" alt="">
+    </div>
+    <!--Fim ImagensSlide-->
+    </div>
+    <!--Inicio Navegação manual-->
+    
+    <!--Inicio Navegação Manual-->
+    </div>
 
-   <div class="carrosel-filmes">
+
+    <!--Fim Menu-->
+    
+    <!--Inicio de contrução do carrossel-->
+   <!--<div class="carrosel-filmes">
     <div class="owl-carousel" owl-theme>
-        <!--para adicionar mais imagens copia a DIV a baixo e mudas as imagens-->
+        <!--para adicionar mais imagens copia a DIV a baixo e mudas as imagens
         <div class="item">
             <img class="box-filme" src="img/min1.jpg" alt="" srcset="">
         </div>
@@ -86,8 +168,7 @@
             <img class="box-filme" src="img/min9.jpg" alt="" srcset="">
         </div>
     </div>
-   </div>
-   
+   </div>-->
    
    <!--Final de contrução do carrossel-->
 
@@ -96,5 +177,10 @@
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/setup.js"></script>
 
+<footer class="footer_container">
+    <hr />
+    <span class="footer_logo">GAMEFLIX</span> - Todos os Direitos Reservados
+  
+</footer>
 </body>
 </html>
