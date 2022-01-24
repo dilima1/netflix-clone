@@ -198,7 +198,6 @@ img {
 .manual-btn:hover {
     background: #40d3dc;
     color:black;
-    font;
 }
 
 #radio1:checked ~ .first{
